@@ -42,7 +42,7 @@ export const metadata = {
     "JPG to PDF, Compress PDF, JPG to PNG aur bahut saare free online tools. Files upload nahi hoti, sab browser mein hota hai.",
   keywords: ["jpg to pdf", "compress pdf", "jpg to png", "png to jpg", "pdf to jpg"],
   verification: {
-    google: "a_zXs7zkgWWo5HDNeCbNXyRH1lxgn00JHu2ued0n1ZU",
+    google: "rgLeP6eknnsW7Ht8MKdHUYk_rkgK1ddk4uC7Pnpw1oU",
   },
 };
 export default function RootLayout({ children }) {

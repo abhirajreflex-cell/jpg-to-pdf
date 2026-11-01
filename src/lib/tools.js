@@ -3,6 +3,7 @@ export const tools = [
     slug: "jpg-to-pdf",
     title: "JPG to PDF",
     description: "JPG images ko ek PDF mein convert karo.",
+    live: true,
   },
   // {
   //   slug: "compress-pdf",

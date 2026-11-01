@@ -30,19 +30,21 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+import { SITE_URL } from "@/lib/config";
+
 export const metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "PixelPDF - Free Online PDF & Image Tools",
     template: "%s | PixelPDF",
-    verification:{
-      google:"a_zXs7zkgWWo5HDNeCbNXyRH1lxgn00JHu2ued0n1ZU"
-    },
   },
   description:
     "JPG to PDF, Compress PDF, JPG to PNG aur bahut saare free online tools. Files upload nahi hoti, sab browser mein hota hai.",
   keywords: ["jpg to pdf", "compress pdf", "jpg to png", "png to jpg", "pdf to jpg"],
+  verification: {
+    google: "a_zXs7zkgWWo5HDNeCbNXyRH1lxgn00JHu2ued0n1ZU",
+  },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
